@@ -1,0 +1,17 @@
+$grey: #c3cfe2;
+$purple: #686de0;
+$black-grey: #333;
+$shadow-grey: #999;
+$bgr-blue: rgb(0, 0, 73);
+$blog-color: #e17b77;
+$facebook-color: #3b5998;
+$twitter-color:#00aced;
+$linkedin-color:#007bb6;
+$github-color:$black-grey;
+
+// mixin voor stijl van de icons //
+@mixin faStyle() {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  font-size: 20px;
+}
